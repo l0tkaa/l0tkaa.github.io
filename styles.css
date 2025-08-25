@@ -1,69 +1,65 @@
-/* General body styles */
+/* Body and general text */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
+    font-family: 'Helvetica', Arial, sans-serif;
+    line-height: 1.7;
     margin: 0;
     padding: 0;
-    background-color: #fdfcfb; /* Off-white background */
-    color: #333; /* Dark gray text for readability */
+    background-color: #fcfbf8; /* Soft off-white */
+    color: #4a4a4a; /* Dark gray text, easier on eyes than black */
 }
 
-/* Header styles */
+/* Header & navigation */
 header {
-    background-color: #ffffff; /* White header to contrast slightly */
-    color: #333;
+    background-color: #fdfaf6; /* Slightly lighter than body */
     padding: 1em 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-/* Navigation styles */
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-    margin-top: 0.5em;
 }
 
 nav a {
-    color: #333;
+    color: #6b6b6b; /* Medium gray links */
     text-decoration: none;
     font-weight: bold;
+    margin: 0 1em;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: #4a4a4a; /* Slightly darker on hover */
 }
 
-/* Main content styles */
+/* Main content */
 main {
-    padding: 2em;
     max-width: 900px;
-    margin: auto;
+    margin: 2em auto;
+    padding: 0 1em;
 }
 
-/* Section headings */
-section h2 {
-    color: #222;
+/* Headings */
+h1 {
+    color: #3c3c3c; /* Slightly darker gray */
+    font-size: 2.2em;
+}
+
+h2 {
+    color: #3c3c3c;
     border-bottom: 2px solid #ddd;
     padding-bottom: 0.3em;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
 }
 
-/* Footer styles */
+/* Lists */
+ul {
+    padding-left: 1.5em;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 1em;
-    background-color: #ffffff;
-    color: #333;
+    background-color: #fdfaf6;
+    color: #6b6b6b;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
     margin-top: 2em;
 }
